@@ -15,23 +15,21 @@ alert(welcomeMessage);
 
 // button
 
-var btnTranslate =  document.querySelector("#btn-translate");
-var txtInput = document.querySelector("#txt-input"); 
+var btnTranslate = document.querySelector("#btn-translate");
+var txtInput = document.querySelector("#txt-input");
+console.log(txtInput)
+
 // show it in console 
 //console.log(btnTranslate)
-console.log(txtInput)
+
 //event listener
 /**btnTranslate.addEventListener("click", function clickEventHandler(){
     console.log("clicked")
 })**/
-function clickHandler(){
+
+function clickHandler() {
     console.log("clicked!");
     console.log("Input:-", txtInput.value);
 };
 
 btnTranslate.addEventListener("click", clickHandler)
-
-
-
-
-
