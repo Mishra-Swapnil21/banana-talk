@@ -33,3 +33,4 @@ function clickHandler() {
 };
 
 btnTranslate.addEventListener("click", clickHandler)
+
